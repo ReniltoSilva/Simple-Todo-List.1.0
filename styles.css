@@ -36,10 +36,16 @@ h1{
     width: 270px;
     height:15px;
     margin: 5px;
-    border:none;
+    border: none;
     border-radius: 5px;
-    box-shadow: 1.5px 1.5px 3px black;
+    box-shadow: inset 0px 0px 5px black;
+    background-color: white;
 }
+#taskInput::placeholder{
+    color: rgb(101, 101, 101);
+    font-size: 15px;
+}
+
 
 #addTaskButton{
     color:white;
